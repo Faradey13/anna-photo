@@ -1,0 +1,24 @@
+.child {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1vh;
+  justify-content: center;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.imageItem {
+  width: 450px;
+
+
+}
+.imageItem:hover {
+  transform: scale(1.05);
+  transition: transform .3s ease-in;
+
+}
+.fullscreenImage {
+  height: 100vh;
+}
+

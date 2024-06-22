@@ -1,0 +1,38 @@
+:root {
+
+  --index: calc(1vw + 1vh);
+  --color-header: #f4efec;
+  --color-text: #cdc6c3;
+  --gallery-gap: calc(var(--index) * 7.5)
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'raleway-c';
+  src: url("/src/assets/fonts/raleway-regular.woff2"); ;
+}
+
+@font-face {
+  font-family: 'outfit-c';
+  src: url("/src/assets/fonts/outfit-regular.woff2") ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'outfit-c', sans-serif;
+}
+body {
+  background-image: url("/src/assets/images/bg.jpg");
+  background-size: 50px;
+  color: #fafafa;
+  font-family: 'raleway-c', sans-serif;
+  font-size: 6px;
+  overflow-x: hidden;
+
+
+}
