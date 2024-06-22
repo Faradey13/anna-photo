@@ -1,11 +1,8 @@
+import GalleryItem from "../../../components/widjets/GalleryItem/galleryItem.tsx";
 
 
 const Nu = () => {
-    return (
-        <div>
-
-        </div>
-    );
+    return GalleryItem('nu')
 };
 
 export default Nu;

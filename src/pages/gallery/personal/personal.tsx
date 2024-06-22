@@ -1,11 +1,8 @@
+import GalleryItem from "../../../components/widjets/GalleryItem/galleryItem.tsx";
 
 
 const Personal = () => {
-    return (
-        <div>
-
-        </div>
-    );
+    return GalleryItem('personal')
 };
 
 export default Personal;

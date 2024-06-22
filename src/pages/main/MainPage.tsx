@@ -112,6 +112,7 @@ const MainPage = () => {
                                 <img
                                     src="/src/assets/images/model.jpg"
                                     alt={'model_photo'}
+                                    className={cls.image}
 
                                 />
                             </div>
@@ -127,6 +128,7 @@ const MainPage = () => {
                                 <img
                                     src="/src/assets/images/child2.jpg"
                                     alt={'child_photo'}
+                                    className={cls.image}
 
                                 />
                             </div>
@@ -142,6 +144,7 @@ const MainPage = () => {
                                 <img
                                     src="/src/assets/images/love.jpg"
                                     alt={'love_photo'}
+                                    className={cls.image}
 
                                 />
                             </div>
@@ -157,6 +160,7 @@ const MainPage = () => {
                                 <img
                                     src="/src/assets/images/nu.jpg"
                                     alt={'nu_photo'}
+                                    className={cls.image}
 
                                 />
                             </div>
@@ -173,6 +177,7 @@ const MainPage = () => {
                                 <img
                                     src="/src/assets/images/thing2.jpg"
                                     alt={'thing_photo'}
+                                    className={cls.image}
 
                                 />
                             </div>
@@ -190,6 +195,7 @@ const MainPage = () => {
                                 <img
                                     src="/src/assets/images/family.jpg"
                                     alt={'family_photo'}
+                                    className={cls.image}
 
                                 />
                             </div>
@@ -205,6 +211,7 @@ const MainPage = () => {
                                 <img
                                     src="/src/assets/images/thematic.jpg"
                                     alt={'thematic_photo'}
+                                    className={cls.image}
 
                                 />
                             </div>
@@ -221,6 +228,7 @@ const MainPage = () => {
                                 <img
                                     src="/src/assets/images/person.JPG"
                                     alt={'person_photo'}
+                                    className={cls.image}
                                 />
                             </div>
                             <div ref={addToRefs(rightRefs)} data-speed={.9}
@@ -235,6 +243,7 @@ const MainPage = () => {
                                 <img
                                     src="/src/assets/images/content.jpg"
                                     alt={'content_photo'}
+                                    className={cls.image}
 
                                 />
                             </div>

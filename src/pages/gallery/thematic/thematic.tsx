@@ -1,11 +1,8 @@
+import GalleryItem from "../../../components/widjets/GalleryItem/galleryItem.tsx";
 
 
 const Thematic = () => {
-    return (
-        <div>
-
-        </div>
-    );
+    return GalleryItem('thematic')
 };
 
 export default Thematic;

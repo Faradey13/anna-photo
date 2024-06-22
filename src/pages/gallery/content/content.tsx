@@ -1,10 +1,9 @@
 
-const Content = () => {
-    return (
-        <div>
+import GalleryItem from "../../../components/widjets/GalleryItem/galleryItem.tsx";
 
-        </div>
-    );
-};
+
+const Content = () => {
+    return GalleryItem('content')
+}
 
 export default Content;

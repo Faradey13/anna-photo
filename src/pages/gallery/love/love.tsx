@@ -1,11 +1,8 @@
+import GalleryItem from "../../../components/widjets/GalleryItem/galleryItem.tsx";
 
 
 const Love = () => {
-    return (
-        <div>
-
-        </div>
-    );
+    return GalleryItem('love')
 };
 
 export default Love;

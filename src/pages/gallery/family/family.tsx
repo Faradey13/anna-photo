@@ -1,10 +1,7 @@
+import GalleryItem from "../../../components/widjets/GalleryItem/galleryItem.tsx";
 
 const Family = () => {
-    return (
-        <div>
-
-        </div>
-    );
+    return GalleryItem('family')
 };
 
 export default Family;
